@@ -19,4 +19,4 @@ class GroupSerializers(serializers.HyperlinkedModelSerializer):
 class NoteSerializers(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Note
-        fields = ['title', 'contents']
+        fields = ['id', 'title', 'contents']
